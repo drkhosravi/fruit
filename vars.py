@@ -24,6 +24,4 @@ model_name = 'vgg11'
 input_size = 224 if model_name.find('vgg') != -1 else 256
 
 mode = 'test' #train or test
-#test_model = "\\mymodel-sgd-cuda-batch-64\\LR from 0.06 to 0.001\\ep46-acc99.82-loss0.0108.pth"
-#test_model = "\\ResNet-SGD-cuda-batch-64\\ep22-acc99.96-loss0.0026.pth"
-test_model = "D:\\Projects\\_Python\\Fruit Detection2\\vgg11-SGD-cuda-batch-16-pretrained\\ep2-acc100.00-loss0.0011.pth"
+test_model = "\\mymodel-sgd-cuda-batch-64\\LR from 0.06 to 0.001\\ep46-acc99.82-loss0.0108.pth"
